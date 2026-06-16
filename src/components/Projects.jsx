@@ -16,7 +16,7 @@ const Projects = () => {
       category: 'Web Development',
       description: 'Created a food delivery platform that streamlines the ordering process from menu selection to doorstep delivery. Features include real-time order tracking, multiple payment methods, order history, and a comprehensive admin dashboard for managing orders, payments, and courier operations.',
       image: 'https://foodfuel.vercel.app/assets/logo-Bdx1UPrk.png',
-      tags: ['HTML', 'CSS', 'JavaScript', 'PHP'],
+      tags: ['HTML', 'CSS', 'JavaScript','React'],
       link: 'https://foodfuel.vercel.app'
     },
     {
@@ -24,7 +24,7 @@ const Projects = () => {
       category: 'Web Development',
       description: 'Developed a user-friendly expense tracking application to monitor daily income and expenses efficiently. Implemented features for adding, editing, and categorizing financial transactions. Provided real-time balance calculations and expense summaries to help users manage their finances effectively.',
       image: 'https://img.freepik.com/free-vector/budget-control-concept-illustration_114360-2243.jpg?t=st=1763177499~exp=1763181099~hm=009b605d9f80ed39c30a02296a37d4b25f1fa7a8f2c6ddf9f8b433830671853e&w=740',
-      tags: ['HTML', 'CSS', 'JavaScript'],
+      tags: ['HTML', 'CSS', 'JavaScript','React'],
       link: 'https://expensetracker04.vercel.app/'
     }
   ];
