@@ -62,7 +62,7 @@ const Achievements = () => {
               <p>Consistently contributing to open source and personal projects.</p>
             </div>
             <a
-              href="https://github.com/bhavya-428"
+              href="https://github.com/Bhavyasri-vakkalagadda"
               target="_blank"
               rel="noopener noreferrer"
               className="github-btn"

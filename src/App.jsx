@@ -55,7 +55,7 @@ function App() {
         <div className="container">
           <p>
             Designed & Built with <span className="footer-heart">♥</span> by{' '}
-            <a href="https://github.com/bhavya-428" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Bhavyasri-vakkalagadda" target="_blank" rel="noopener noreferrer">
               Bhavya Vakkalagadda
             </a>{' '}
             &copy; {new Date().getFullYear()}
