@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://bhavyasri-vakkalagadda.github.io/Portfolio/sitemap.xml
+Sitemap: /sitemap.xml

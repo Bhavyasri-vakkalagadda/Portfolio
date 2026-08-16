@@ -20,10 +20,10 @@ const Hero = () => {
           <p className="hero-greeting">{'> hello, world'}</p>
 
           <h1 className="hero-title">
-          I'm{' '}
-          <span className="hero-name gradient-text">Bhavya</span>
-          <span className="hero-role">Web Developer · Computer Engineering Student</span>
-        </h1>
+            I'm{' '}
+            <span className="hero-name gradient-text">Bhavya Sri Vakkalagadda</span>
+            <span className="hero-role">Web Developer · Computer Engineering Student</span>
+          </h1>
 
         <p className="hero-description">
           An enthusiastic computer science student with strong programming skills in Python, 
@@ -53,7 +53,7 @@ const Hero = () => {
           <div className="hero-photo-container">
             <div className=""></div>
             <div className="photo-wrapper">
-              <img src={profilePhoto} alt="Bhavya Vakkalagadda" className="profile-photo" />
+              <img src={profilePhoto} alt="Bhavya Sri Vakkalagadda" className="profile-photo" />
             </div>
             <div className="hero-tech-float tech-float-1">⚛ React</div>
             <div className="hero-tech-float tech-float-2">🐍 Python</div>

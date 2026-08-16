@@ -11,7 +11,7 @@ const CodingPet = () => {
   const petRef = useRef(null);
 
   const developerMessages = [
-    'Beep boop! 🚀 Exploring Bhavya\'s work?',
+    'Beep boop! 🚀 Exploring Bhavya Sri\'s work?',
     'React 19 & 3D WebGL active! ⚡',
     'Check out the IoT & Web Projects! 💡',
     'Coffee level: 100% ☕',

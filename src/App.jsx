@@ -68,8 +68,8 @@ function App() {
         <div className="container">
           <p>
             Designed & Built with <span className="footer-heart">♥</span> by{' '}
-            <a href="https://github.com/Bhavyasri-vakkalagadda" target="_blank" rel="noopener noreferrer">
-              Bhavya Vakkalagadda
+            <a href="https://github.com/Bhavyasri-vakkalagadda" target="_blank" rel="me noopener noreferrer" title="Bhavya Sri Vakkalagadda GitHub Profile">
+              Bhavya Sri Vakkalagadda
             </a>{' '}
             &copy; {new Date().getFullYear()}
           </p>

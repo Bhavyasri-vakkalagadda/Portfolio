@@ -169,7 +169,7 @@ const Preloader = ({ onComplete }) => {
               <span className="dot-yellow" />
               <span className="dot-green" />
             </div>
-            <span className="terminal-title">bhavya-os -- bash (zsh)</span>
+            <span className="terminal-title">bhavya-sri-os -- bash (zsh)</span>
           </div>
           <div className="terminal-body">
             {terminalLines.slice(0, currentLineIndex + 1).map((line, idx) => (
@@ -186,7 +186,7 @@ const Preloader = ({ onComplete }) => {
 
         {/* Title */}
         <div className="preloader-title-box">
-          <div className="preloader-name">Bhavya Vakkalagadda</div>
+          <div className="preloader-name">Bhavya Sri Vakkalagadda</div>
           <div className="preloader-subtext">3D Web Developer & Computer Engineer</div>
         </div>
       </div>

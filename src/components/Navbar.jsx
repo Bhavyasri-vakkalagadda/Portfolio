@@ -18,8 +18,8 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
-        <a href="#" className="logo">
-          bhavya<span className="dot">.</span>
+        <a href="#" className="logo" aria-label="Bhavya Sri Vakkalagadda Home">
+          bhavya sri<span className="dot">.</span>
         </a>
 
         <div

@@ -1,7 +1,9 @@
 {
   "name": "bhavya-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Portfolio of Bhavya Sri Vakkalagadda",
+  "author": "Bhavya Sri Vakkalagadda",
   "type": "module",
   "scripts": {
     "dev": "vite",
