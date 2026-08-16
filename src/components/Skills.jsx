@@ -6,7 +6,7 @@ const Skills = () => {
     {
       icon: '⚡',
       title: 'Programming',
-      skills: ['Python', 'C', 'Data Structures','JavaScript', 'TypeScript']
+      skills: ['Python', 'C', 'Data Structures','OOPs']
     },
     {
       icon: '🌐',
@@ -16,7 +16,7 @@ const Skills = () => {
     {
       icon: '🛠️',
       title: 'Tools & Platforms',
-      skills: ['VS Code', 'Git', 'Cursor', 'Windsurf', 'Antigravity']
+      skills: ['VS Code', 'Git','Git hub', 'Cursor', 'Windsurf', 'Antigravity']
     }
   ];
 
@@ -26,7 +26,7 @@ const Skills = () => {
   return (
     <section id="skills" className="skills-section section-padding">
       <div className="container">
-        <div className="skills-header-card glass reveal">
+        <div className="section-header reveal">
           <span className="section-label">03 — Skills</span>
           <h2 className="section-title">My Top <span className="gradient-text">Skills</span></h2>
           <p className="section-subtitle">Technologies I use to bring ideas to life.</p>

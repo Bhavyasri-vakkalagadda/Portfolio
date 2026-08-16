@@ -3,7 +3,6 @@ import './Preloader.css';
 
 const Preloader = ({ onComplete }) => {
   const [progress, setProgress] = useState(0);
-  const [currentLineIndex, setCurrentLineIndex] = useState(0);
   const [isExiting, setIsExiting] = useState(false);
 
   const terminalLines = [
@@ -14,8 +13,14 @@ const Preloader = ({ onComplete }) => {
     '> status: 100% READY _'
   ];
 
+  // Derive current terminal line directly from progress percentage (no effect restart!)
+  const currentLineIndex = Math.min(
+    terminalLines.length - 1,
+    progress >= 98 ? 4 : progress > 75 ? 3 : progress > 45 ? 2 : progress > 20 ? 1 : 0
+  );
+
   useEffect(() => {
-    // Progress counter (0 to 100 in ~2.2 seconds)
+    // Single uninterrupted progress counter (0 to 100%)
     const duration = 2200;
     const intervalTime = 30;
     const steps = duration / intervalTime;
@@ -25,12 +30,6 @@ const Preloader = ({ onComplete }) => {
       currentStep++;
       const nextProgress = Math.min(100, Math.floor((currentStep / steps) * 100));
       setProgress(nextProgress);
-
-      // Advance terminal line index based on progress threshold
-      if (nextProgress > 20 && currentLineIndex < 1) setCurrentLineIndex(1);
-      if (nextProgress > 45 && currentLineIndex < 2) setCurrentLineIndex(2);
-      if (nextProgress > 75 && currentLineIndex < 3) setCurrentLineIndex(3);
-      if (nextProgress >= 98 && currentLineIndex < 4) setCurrentLineIndex(4);
 
       if (nextProgress >= 100) {
         clearInterval(timer);
@@ -44,7 +43,7 @@ const Preloader = ({ onComplete }) => {
     }, intervalTime);
 
     return () => clearInterval(timer);
-  }, [currentLineIndex, onComplete]);
+  }, [onComplete]);
 
   // Ring calculations
   const radius = 65;

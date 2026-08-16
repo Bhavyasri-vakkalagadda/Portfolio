@@ -116,6 +116,7 @@
   font-weight: 800;
   background: linear-gradient(135deg, #00f3ff, #b026ff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -1px;
 }
@@ -249,6 +250,7 @@
   text-transform: uppercase;
   background: linear-gradient(90deg, #ffffff, #00f3ff, #b026ff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
   display: inline-block;

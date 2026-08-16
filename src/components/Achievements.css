@@ -10,7 +10,7 @@
 
 /* ===== Achievement Card ===== */
 .achievement-card {
-  padding: 2.5rem;
+  padding: 1.8rem 2rem;
   transition: var(--transition-normal);
   position: relative;
   overflow: hidden;
@@ -38,20 +38,20 @@
 .card-header {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
 }
 
 .card-icon {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   background: rgba(0, 212, 255, 0.06);
-  padding: 0.8rem;
-  border-radius: 14px;
+  padding: 0.65rem;
+  border-radius: 12px;
   line-height: 1;
 }
 
 .achievement-card h3 {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--text-primary);
 }
