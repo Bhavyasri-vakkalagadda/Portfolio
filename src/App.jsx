@@ -1,4 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import Preloader from './components/Preloader';
+import ThreeDCanvas from './components/ThreeDCanvas';
+import CodingPet from './components/CodingPet';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -7,10 +10,11 @@ import Skills from './components/Skills';
 import Achievements from './components/Achievements';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
-import ParticleField from './components/ParticleField';
 import './App.css';
 
 function App() {
+  const [isLoaded, setIsLoaded] = useState(false);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -35,12 +39,21 @@ function App() {
       observer.disconnect();
       window.removeEventListener('mousemove', handleMouseMove);
     };
-  }, []);
+  }, [isLoaded]);
 
   return (
     <div className="app">
+      {/* 1. Custom Terminal Preloader / Initializing Screen */}
+      {!isLoaded && <Preloader onComplete={() => setIsLoaded(true)} />}
+
+      {/* 2. Full 3D Coding-Themed WebGL Background Canvas */}
+      <ThreeDCanvas />
+
+      {/* 3. Interactive Coding Pet Mascot ("Byte") */}
+      <CodingPet />
+
+      {/* 4. Navigation & Site Content */}
       <div className="noise-overlay" />
-      <ParticleField />
       <Navbar />
       <main>
         <Hero />
