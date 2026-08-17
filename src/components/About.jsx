@@ -30,7 +30,7 @@ const About = () => {
 
           <div className="card-stat glass reveal reveal-delay-2">
             <span className="stat-icon">🎓</span>
-            <span className="stat-number">8.66</span>
+            <span className="stat-number">8.82</span>
             <span className="stat-label">Diploma CGPA <br/> <span>Kallam Haranadha Reddy Institute of Technology</span></span>
           </div>
 
