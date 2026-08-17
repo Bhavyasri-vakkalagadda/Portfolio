@@ -6,7 +6,7 @@ const Achievements = () => {
     {
       title: 'Education',
       items: [
-        { name: 'Diploma in Computer Engineering', org: 'Kallam haranadhareddy institute of technology', period: 'CGPA: 8.66 | (2026)' },
+        { name: 'Diploma in Computer Engineering', org: 'Kallam haranadhareddy institute of technology', period: 'CGPA: 8.82 | (2026)' },
         { name: 'X (State Board)', org: 'Sri majety high school', period: '87.3% | 2023' }
       ],
       icon: '🎓'
