@@ -74,7 +74,7 @@ const Contact = () => {
                 GitHub
               </a>
               <a 
-                href="https://www.linkedin.com/in/bhavya-sri-vakkalagadda-928739360/" 
+                href="https://www.linkedin.com/in/bhavyasri-vakkalagadda/" 
                 target="_blank" 
                 rel="me noopener noreferrer" 
                 className="social-link"
@@ -87,7 +87,7 @@ const Contact = () => {
                 LinkedIn
               </a>
               <a 
-                href="mailto:v.bhavyasri2001@gmail.com" 
+                href="mailto:vbhavyasri2001@gmail.com" 
                 className="social-link"
                 title="Send Email to Bhavya Sri Vakkalagadda"
                 aria-label="Email Bhavya Sri Vakkalagadda"

@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![Portfolio Live](https://img.shields.io/badge/Live_Demo-bhavya--vakkalagadda.vercel.app-00D4FF?style=for-the-badge&logo=vercel&logoColor=white)](https://bhavya-vakkalagadda.vercel.app/)
+[![Portfolio Live](https://img.shields.io/badge/Live_Demo-bhavyasri--vakkalagadda.vercel.app-00D4FF?style=for-the-badge&logo=vercel&logoColor=white)](https://bhavyasri-vakkalagadda.vercel.app/)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Bhavyasri--vakkalagadda-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Bhavyasri-vakkalagadda)
-[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-Bhavya_Sri_Vakkalagadda-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhavya-sri-vakkalagadda-928739360/)
+[![LinkedIn Profile](https://img.shields.io/badge/LinkedIn-Bhavya_Sri_Vakkalagadda-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhavyasri-vakkalagadda/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg?style=for-the-badge)](LICENSE)
 
 <p align="center">
@@ -17,12 +17,12 @@
 
 ## 👩‍💻 About Bhavya Sri Vakkalagadda
 
-**Bhavya Sri Vakkalagadda** is a Computer Engineering student at *Kallam Haranadha Reddy Institute of Technology* and a passionate **Frontend & Full Stack Web Developer**. Specializing in modern JavaScript frameworks (React.js), Python development, interactive 3D web graphics, and IoT systems, she creates responsive, pixel-perfect, and high-performance digital experiences.
+**Bhavya Sri Vakkalagadda** is a Computer Engineering student at *Kallam Haranadha Reddy Institute of Technology* and a passionate **Frontend & Full Stack Web Developer**. Specializing in modern JavaScript frameworks (React.js), Python development, interactive 3D web graphics, and responsive web applications, she creates clean, pixel-perfect, and high-performance digital experiences.
 
-- 🌐 **Live Website:** [https://bhavya-vakkalagadda.vercel.app/](https://bhavya-vakkalagadda.vercel.app/)
+- 🌐 **Live Website:** [https://bhavyasri-vakkalagadda.vercel.app/](https://bhavyasri-vakkalagadda.vercel.app/)
 - 📍 **Location:** Guntur, Andhra Pradesh, India
-- ✉️ **Contact:** [v.bhavyasri2001@gmail.com](mailto:v.bhavyasri2001@gmail.com)
-- 💼 **Roles:** Web Developer, React Developer, Frontend Engineer, Computer Engineer
+- ✉️ **Contact:** [vbhavyasri2001@gmail.com](mailto:vbhavyasri2001@gmail.com)
+- 💼 **Roles:** Web Developer, React Developer, Frontend Engineer, Full-Stack Developer, Computer Engineer
 
 ---
 
@@ -91,16 +91,16 @@ npm run build
 
 ## 📈 Search Engine & Recruiter Keywords
 
-`Bhavya Sri Vakkalagadda` • `Bhavya Sri` • `Bhavyasri Vakkalagadda` • `Web Developer Portfolio` • `React.js Developer` • `Frontend Developer India` • `Computer Engineer Guntur` • `Kallam Haranadha Reddy Institute of Technology` • `Three.js Portfolio` • `JavaScript Developer` • `Python Programmer` • `IoT Developer`
+`Bhavya Sri Vakkalagadda` • `Bhavya Sri` • `Bhavyasri Vakkalagadda` • `Web Developer Portfolio` • `React.js Developer` • `Full-Stack Developer` • `Frontend Developer India` • `Computer Engineer Guntur` • `Kallam Haranadha Reddy Institute of Technology` • `Three.js Portfolio` • `JavaScript Developer` • `Python Developer`
 
 ---
 
 ## 📬 Connect With Me
 
-- **Portfolio:** [bhavya-vakkalagadda.vercel.app](https://bhavya-vakkalagadda.vercel.app/)
+- **Portfolio:** [bhavyasri-vakkalagadda.vercel.app](https://bhavyasri-vakkalagadda.vercel.app/)
 - **GitHub:** [@Bhavyasri-vakkalagadda](https://github.com/Bhavyasri-vakkalagadda)
-- **LinkedIn:** [Bhavya Sri Vakkalagadda](https://www.linkedin.com/in/bhavya-sri-vakkalagadda-928739360/)
-- **Email:** [v.bhavyasri2001@gmail.com](mailto:v.bhavyasri2001@gmail.com)
+- **LinkedIn:** [Bhavya Sri Vakkalagadda](https://www.linkedin.com/in/bhavyasri-vakkalagadda/)
+- **Email:** [vbhavyasri2001@gmail.com](mailto:vbhavyasri2001@gmail.com)
 
 ---
 

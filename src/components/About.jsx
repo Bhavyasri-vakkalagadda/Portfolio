@@ -18,13 +18,13 @@ const About = () => {
               <span className="wave">👋</span> Hey, I'm Bhavya Sri Vakkalagadda!
             </p>
             <p className="about-text">
-              I'm an enthusiastic <span className="highlight">Computer Engineering</span> student who is passionate about 
-              applying technical knowledge to solve real-world problems.
+              I'm an enthusiastic <span className="highlight">Computer Engineering</span> student passionate about 
+              turning ideas into high-performance, user-centric digital experiences.
             </p>
             <p className="about-text">
-              My goal is to contribute to innovative projects as a <span className="highlight">Web Developer</span>. 
-              I focus on building pixel-perfect, performant experiences with a strong foundation 
-              in Python and web technologies.
+              My technical focus spans <span className="highlight">Frontend & Full-Stack Web Development</span> with 
+              React.js, modern JavaScript, and Python. I specialize in building responsive interfaces, 
+              clean architectures, and scalable web solutions.
             </p>
           </div>
 

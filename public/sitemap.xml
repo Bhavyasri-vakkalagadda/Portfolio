@@ -5,50 +5,50 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Main Home & Portfolio Landing -->
   <url>
-    <loc>https://bhavya-vakkalagadda.vercel.app/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <loc>https://bhavyasri-vakkalagadda.vercel.app/</loc>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <!-- About Section -->
   <url>
-    <loc>https://bhavya-vakkalagadda.vercel.app/#about</loc>
-    <lastmod>2026-08-16</lastmod>
+    <loc>https://bhavyasri-vakkalagadda.vercel.app/#about</loc>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Projects Section -->
   <url>
-    <loc>https://bhavya-vakkalagadda.vercel.app/#projects</loc>
-    <lastmod>2026-08-16</lastmod>
+    <loc>https://bhavyasri-vakkalagadda.vercel.app/#projects</loc>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <!-- Skills Section -->
   <url>
-    <loc>https://bhavya-vakkalagadda.vercel.app/#skills</loc>
-    <lastmod>2026-08-16</lastmod>
+    <loc>https://bhavyasri-vakkalagadda.vercel.app/#skills</loc>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Achievements & Growth Section -->
   <url>
-    <loc>https://bhavya-vakkalagadda.vercel.app/#achievements</loc>
-    <lastmod>2026-08-16</lastmod>
+    <loc>https://bhavyasri-vakkalagadda.vercel.app/#achievements</loc>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Insights / Blog Section -->
   <url>
-    <loc>https://bhavya-vakkalagadda.vercel.app/#blog</loc>
-    <lastmod>2026-08-16</lastmod>
+    <loc>https://bhavyasri-vakkalagadda.vercel.app/#blog</loc>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Contact Section -->
   <url>
-    <loc>https://bhavya-vakkalagadda.vercel.app/#contact</loc>
-    <lastmod>2026-08-16</lastmod>
+    <loc>https://bhavyasri-vakkalagadda.vercel.app/#contact</loc>
+    <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

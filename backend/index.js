@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // These should be set in your .env file
-const EMAIL_USER = process.env.EMAIL_USER || 'v.bhavyasri2001@gmail.com';
+const EMAIL_USER = process.env.EMAIL_USER || 'vbhavyasri2001@gmail.com';
 const EMAIL_PASS = process.env.EMAIL_PASS; 
 
 const transporter = nodemailer.createTransport({
@@ -30,7 +30,7 @@ app.post('/api/contact', async (req, res) => {
 
   const mailOptions = {
     from: email,
-    to: 'v.bhavyasri2001@gmail.com',
+    to: 'vbhavyasri2001@gmail.com',
     subject: `New Portfolio Message from ${name}`,
     text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
   };
