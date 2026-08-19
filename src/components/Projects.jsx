@@ -4,28 +4,13 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
-      title: 'FitLife',
-      category: 'Client Project',
-      description: 'Client project designed and built for health & wellness management, enabling users to monitor daily food diet, calorie intake, workout routines, and real-time BMI metrics with interactive progress analytics.',
-      image: 'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1000&auto=format&fit=crop',
-      tags: ['Client Project', 'React', 'JavaScript', 'BMI Calculator', 'Diet Tracker'],
-      link: '#'
-    },
-    {
-      title: 'Smart Heart Monitoring',
-      category: 'IoT System',
-      description: 'IoT-based health system that tracks heart rate in real time, generates automated emergency caregiver alerts, and provides live GPS location tracking.',
-      image: 'https://cdn.britannica.com/25/214625-050-A37D76CC/heart-rate-monitor-illustration-heartbeat.jpg',
-      tags: ['IoT', 'GPS', 'Email Alerts', 'Python', 'Sensors'],
-      link: '#'
-    },
-    {
       title: 'Foodfuel',
       category: 'Web Development',
       description: 'Modern food delivery platform streamlining menu ordering, live courier tracking, order history, and an admin dashboard for operations.',
       image: 'https://foodfuel.vercel.app/assets/logo-Bdx1UPrk.png',
       tags: ['React', 'JavaScript', 'HTML5', 'CSS3', 'REST API'],
-      link: 'https://foodfuel.vercel.app'
+      link: 'https://foodfuel.vercel.app',
+      github: 'https://github.com/Bhavyasri-vakkalagadda/foodfuel'
     },
     {
       title: 'Expense Tracker',
@@ -33,7 +18,26 @@ const Projects = () => {
       description: 'User-friendly financial management application to track daily income and expenses with real-time balance calculations and visual expense summaries.',
       image: 'https://img.freepik.com/free-vector/budget-control-concept-illustration_114360-2243.jpg?t=st=1763177499~exp=1763181099~hm=009b605d9f80ed39c30a02296a37d4b25f1fa7a8f2c6ddf9f8b433830671853e&w=740',
       tags: ['React', 'JavaScript', 'Finance', 'Charts', 'CSS3'],
-      link: 'https://expensetracker04.vercel.app/'
+      link: 'https://expensetracker04.vercel.app/',
+      github: 'https://github.com/Bhavyasri-vakkalagadda/expensetracker'
+    },
+    {
+      title: 'FitLife',
+      category: 'Client Project',
+      description: 'Client project designed and built for health & wellness management, enabling users to monitor daily food diet, calorie intake, workout routines, and real-time BMI metrics with interactive progress analytics.',
+      image: 'https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1000&auto=format&fit=crop',
+      tags: ['Client Project', 'React', 'JavaScript', 'BMI Calculator', 'Diet Tracker'],
+      link: '#',
+      github: 'https://github.com/Bhavyasri-vakkalagadda'
+    },
+    {
+      title: 'Smart Heart Monitoring',
+      category: 'IoT System',
+      description: 'IoT-based health system that tracks heart rate in real time, generates automated emergency caregiver alerts, and provides live GPS location tracking.',
+      image: 'https://cdn.britannica.com/25/214625-050-A37D76CC/heart-rate-monitor-illustration-heartbeat.jpg',
+      tags: ['IoT', 'GPS', 'Email Alerts', 'Python', 'Sensors'],
+      link: '#',
+      github: 'https://github.com/Bhavyasri-vakkalagadda'
     }
   ];
 
@@ -78,18 +82,36 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="project-actions">
-                  <a
-                    href={project.link}
-                    className="project-link"
-                    target={project.link !== '#' ? '_blank' : undefined}
-                    rel="noopener noreferrer"
-                  >
-                    View Project
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <line x1="5" y1="12" x2="19" y2="12" />
-                      <polyline points="12 5 19 12 12 19" />
-                    </svg>
-                  </a>
+                  {project.link && project.link !== '#' && (
+                    <a
+                      href={project.link}
+                      className="project-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={`Visit live demo of ${project.title}`}
+                    >
+                      View Live
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                        <polyline points="12 5 19 12 12 19" />
+                      </svg>
+                    </a>
+                  )}
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      className="project-github-btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title={`${project.title} on GitHub`}
+                      aria-label={`${project.title} GitHub Source Code`}
+                    >
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                      </svg>
+                      GitHub Repo
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
